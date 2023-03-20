@@ -64,7 +64,7 @@ Template.Menu = `
   <div class="container">
   <div class="navbar-brand">
     <li class="navbar-item">
-      <img :src="logoPath" alt="Bulma" style="height:15px">
+      <img :src="https://www.loopyt.com/_next/image/?url=%2Fimages%2Fcasino%2FUFALOOPYT.png&w=1200&q=75" alt="เว็บแทงบอล" style="height:15px">
     </li>
 
     <div id="navbarBurger" class="navbar-burger burger" @click="setMenuActive" :class="menuActive?'is-active':''">
@@ -152,7 +152,7 @@ Template.List = `
                   <strong class="is-size-4">{{item.title}}</strong>
                 </div>
                 <div class="column has-text-right">
-                  <span>{{item.showhide?'put away':'expand'}}</span>
+                  <span>{{item.showhide?'ย่อ':'ขยาย'}}</span>
                   <span class="icon has-text-info">
                     <i class="fas" :class="item.showhide?'fa-angle-double-up':'fa-angle-double-down'"></i>
                   </span>
@@ -176,7 +176,7 @@ Template.List = `
                   <span class="is-size-7 has-text-grey-light is-family-monospace">เผยแพร่เมื่อ： {{item.created_at | formatTime('yyyy-MM-dd h:m')}}</span>
                 </div>
                 <div class="column has-text-right" v-if="item.showhide">
-                  <span>{{item.showhide?'put away':'expand'}}</span>
+                  <span>{{item.showhide?'ย่อ':'ขยาย'}}</span>
                   <span class="icon has-text-info">
                     <i class="fas" :class="item.showhide?'fa-angle-double-up':'fa-angle-double-down'"></i>
                   </span>
