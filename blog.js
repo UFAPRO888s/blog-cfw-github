@@ -108,13 +108,13 @@ Template.Pagination = `
     class="pagination-previous" 
     :disabled="current_page <= 1" 
     >
-    上一页
+    ย้อนกลับ
   </router-link>
   <router-link 
     :to="current_page == Math.ceil(countN / limit)?'':'/list/'+thisPath+'/'+(Number(current_page) + 1)"
     class="pagination-next" 
     :disabled="current_page >= Math.ceil(countN / limit)">
-    下一页
+    ถัดไป
   </router-link>
   <ul class="pagination-list">
     <li v-for="i in Math.ceil(countN / limit)" :key="i">
