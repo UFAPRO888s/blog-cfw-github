@@ -152,7 +152,7 @@ Template.List = `
                   <strong class="is-size-4">{{item.title}}</strong>
                 </div>
                 <div class="column has-text-right">
-                  <span>{{item.showhide?'收起':'展开'}}</span>
+                  <span>{{item.showhide?'put away':'expand'}}</span>
                   <span class="icon has-text-info">
                     <i class="fas" :class="item.showhide?'fa-angle-double-up':'fa-angle-double-down'"></i>
                   </span>
@@ -173,10 +173,10 @@ Template.List = `
               </div>
               <div class="columns is-mobile" @click="getContent(item.content, index)">
                 <div class="column is-three-quarters">
-                  <span class="is-size-7 has-text-grey-light is-family-monospace">发布于： {{item.created_at | formatTime('yyyy-MM-dd h:m')}}</span>
+                  <span class="is-size-7 has-text-grey-light is-family-monospace">เผยแพร่เมื่อ： {{item.created_at | formatTime('yyyy-MM-dd h:m')}}</span>
                 </div>
                 <div class="column has-text-right" v-if="item.showhide">
-                  <span>{{item.showhide?'收起':'展开'}}</span>
+                  <span>{{item.showhide?'put away':'expand'}}</span>
                   <span class="icon has-text-info">
                     <i class="fas" :class="item.showhide?'fa-angle-double-up':'fa-angle-double-down'"></i>
                   </span>
@@ -191,7 +191,7 @@ Template.List = `
           <div class="media">
           <div class="media-content">
             <div class="content  has-text-centered">
-              <img class="image" src="https://image.suning.cn/uimg/ZR/share_order/158501870837440052.jpg" />
+              <img class="image" src="https://www.loopyt.com/_next/image/?url=%2Fimages%2Fcasino%2FUFALOOPYT.png&w=1200&q=75" />
             </div>
           </div>
           </div>
@@ -232,7 +232,7 @@ Template.Footer = `
 <footer class="footer">
 <div class="content has-text-centered">
 <p>
-  <strong v-html="poweredBy"></strong>. <a v-if="icpIs.length > 0" href="http://beian.miit.gov.cn/" target="_blank">{{icpIs}}</a>
+  <strong v-html="poweredBy"></strong>. <a v-if="icpIs.length > 0" href="https://www.loopyt.com/" target="_blank">{{icpIs}}</a>
 </p>
 </div>
 </footer>
