@@ -1,49 +1,49 @@
 {
 	"status": 0,
-	"title": "My Blog",
-	"logo": "https://image.suning.cn/uimg/ZR/share_order/158541337555183651.jpg",
-	"powered": "Powered by Sun &copy; 2020",
+	"title": "เว็บแทงบอล",
+	"logo": "https://www.loopyt.com/_next/image/?url=%2Fimages%2Fcasino%2FUFALOOPYT.png&w=1200&q=75",
+	"powered": "Powered by ChangYed &copy; 2023",
 	"icp": "沪ICP备18008848号-1",
 	"classify": [
 		{
-			"title": "Linux",
+			"title": "ดูบอลสด",
 			"id": "d8a7613e9c1d8c08",
-			"path": "linux",
+			"path": "live-football",
 			"sort": 0,
 			"intro": ""
 		},
 		{
-			"title": "Node",
+			"title": "ราคาบอล",
 			"id": "b7bf1bb083c178dc",
-			"path": "node",
+			"path": "football-price",
 			"sort": 1,
 			"intro": ""
 		},
 		{
-			"title": "SQL",
+			"title": "ผลบอล",
 			"id": "3c3d6e39b6e0ed7d",
-			"path": "sql",
+			"path": "football-results",
 			"sort": 2,
 			"intro": ""
 		},
 		{
-			"title": "Git",
+			"title": "ทรรศนะบอล",
 			"id": "5033f79514cdee39",
-			"path": "git",
+			"path": "football-perspective",
 			"sort": 3,
 			"intro": ""
 		},
 		{
-			"title": "Python",
+			"title": "ไฮไลท์ฟุตบอล",
 			"id": "539485995fa109ce",
-			"path": "python",
+			"path": "highlight-football",
 			"sort": 4,
 			"intro": ""
 		},
 		{
-			"title": "My life",
+			"title": "ตารางบอล",
 			"id": "4390ae6d5f5e75ea",
-			"path": "life",
+			"path": "football-table",
 			"sort": 5,
 			"intro": ""
 		}
