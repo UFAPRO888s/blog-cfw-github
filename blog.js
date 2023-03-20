@@ -64,7 +64,7 @@ Template.Menu = `
   <div class="container">
   <div class="navbar-brand">
     <li class="navbar-item">
-      <img :src="https://www.loopyt.com/_next/image/?url=%2Fimages%2Fcasino%2FUFALOOPYT.png&w=1200&q=75" alt="เว็บแทงบอล" style="height:15px">
+      <img :src="logoPath" alt="เว็บแทงบอล" style="height:15px">
     </li>
 
     <div id="navbarBurger" class="navbar-burger burger" @click="setMenuActive" :class="menuActive?'is-active':''">
